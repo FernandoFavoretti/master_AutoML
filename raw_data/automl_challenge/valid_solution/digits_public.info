@@ -1,0 +1,16 @@
+usage = 'AutoML challenge 2014'
+name = 'digits'
+task = 'multiclass.classification'
+target_type = 'Categorical'
+feat_type = 'Numerical'
+metric = 'bac_metric'
+feat_num =  1568
+target_num =    10
+label_num =    10
+train_num = 15000
+valid_num = 20000
+test_num = 35000
+has_categorical =     0
+has_missing =     0
+is_sparse =     0
+time_budget = 300
