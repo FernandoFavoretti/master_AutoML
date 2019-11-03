@@ -506,7 +506,7 @@ def logistic_regression_classifier(train_set: List[pd.DataFrame],
     X_test = test_set[0]
     y_test = test_set[1]
     
-    model = LogisticRegression(solver='lbfgs') # lbfgs is the default solver
+    model = LogisticRegression(solver='liblinear') # liblinear is the default solver
 
     start_fit = time.time()
     model.fit(X_train, y_train.values.ravel())
